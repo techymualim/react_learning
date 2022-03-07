@@ -32,7 +32,7 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ reactbootcamphassam.surge.sh --token${{secret.SURGE}}
+        run: surge ./ reactbootcamphassam.surge.sh --token${{secrets.SURGE}}
        
      
         
